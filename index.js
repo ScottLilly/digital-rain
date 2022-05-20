@@ -5,10 +5,12 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
+const cyrillic = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
+const hangul = 'ㄱㄲㄳㄴㄵㄶㄷㄸㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅃㅄㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ'
 const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const nums = '0123456789';
 
-const alphabet = katakana + latin + nums;
+const alphabet = katakana + cyrillic + hangul + latin + nums;
 
 const fontSize = 16;
 const columns = canvas.width/fontSize;
@@ -38,4 +40,4 @@ const draw = () => {
 	}
 };
 
-setInterval(draw, 30);
+setInterval(draw, 75);
