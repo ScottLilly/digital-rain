@@ -7,10 +7,11 @@ canvas.height = window.innerHeight;
 const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
 const cyrillic = 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
 const hangul = 'ㄱㄲㄳㄴㄵㄶㄷㄸㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅃㅄㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ'
+const devanagari = 'कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह'
 const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const nums = '0123456789';
 
-const alphabet = katakana + cyrillic + hangul + latin + nums;
+const alphabet = katakana + cyrillic + hangul + devanagari + latin + nums;
 
 const fontSize = 16;
 const columns = canvas.width/fontSize;
